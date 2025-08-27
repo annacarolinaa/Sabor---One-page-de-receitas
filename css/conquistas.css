@@ -1,0 +1,126 @@
+blockquote {
+    width: 700px;
+    color: #FFF;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 500;
+    text-transform: lowercase;
+    line-height: 1.5;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.ass {
+    width: 430px;
+    height: 106px;
+    justify-items: baseline;
+}
+
+.fa-quote-left {
+    font-size: 180px;
+}
+
+.nu {
+    justify-content: right;
+    display: flex;
+}
+
+.numeros-container1 {
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 170%;
+    text-align: center;
+}
+
+.cardn1 {
+    margin: 70px 76px 30px 76px;
+}
+
+.cardn2 {
+    margin: 70px 76px 30px 76px;
+}
+
+.cardn3 {
+    margin: 70px;
+}
+
+.cardn4 {
+    margin: 70px;
+}
+
+.numeros-container2{
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 170%;
+    text-align: center;
+}
+
+h4 {
+  font-family: "Leckerli One", cursive;
+  font-size: 350%;
+  font-style: normal;
+  line-height: 85px;
+  text-transform: lowercase;
+  color: #A2FF8D;
+  text-align: center;
+}
+
+.estatisticas {
+    /* padding: 50px 20px; */
+    margin: 110px 110px;
+    justify-items: center;
+}
+
+.dados {
+    display: flex;
+    margin: 20px;
+}
+
+.numeros {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 20px 0;
+}
+
+.apoio {
+    justify-items: center;
+    /* margin: auto; */
+    margin-top: 100px;
+}
+
+.apoio img {
+  height: 60px;
+  margin: 20px;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+}
+
+.apoiadores {
+    font-weight: bold;
+    border: #fff solid 1.5px;
+    border-radius: 30px;
+    width: 530px;
+    align-items: center;
+    margin: 60px;
+    display: block;
+    justify-content: center;
+    padding: 8px;
+    text-align: center;
+    justify-items: center;
+    font-size: 180%;
+}
+
+.img_teste {
+    height: 1061px;
+    margin: 0% 0% 2% 0%;
+}
+

@@ -1,0 +1,146 @@
+.formulario {
+  padding: 50px 20px;
+  background: #FAF8F0;
+  color: #111;
+  background-image: url("../img/fundo.png");
+  background-repeat: repeat;
+
+}
+
+.mesa {
+    font-family: "Leckerli One", cursive;
+}
+
+.grid {
+    margin: 100px 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  max-width: 100%;
+  align-items: center;
+}
+
+input, textarea {
+    padding: 25px;
+    border-radius: 100px;
+    margin: 12px;
+    background-color: #FAF8F0;
+    border: 1.5px solid #000000;
+    width: 610px;
+    font-size: 18px;
+    transition: all .15s ease;
+
+}
+
+input:hover {
+    background: black;
+    color: #fff;
+    transition: all .15s ease;
+}
+
+textarea:hover {
+    background: black;
+    color: #fff;
+    transition: all .15s ease;
+}
+
+.button_submit:hover {
+    background: #FF8C00;
+    color: black;
+    transition: all .15s ease;
+}
+
+textarea {
+    width: 610px;
+    height: 296px;
+    border-radius: 50px;
+}
+
+.button_submit {
+  background: #111;
+  color: #FAF8F0;
+  padding: 16px;
+  border: none;
+  border-radius: 70px;
+  cursor: pointer;
+  font-family: "Leckerli One", cursive;
+  font-size: 28px;
+  width: 610px;
+  margin-top: 14px;
+  transition: all .15s ease;
+}
+
+.dica {
+    background-color: #19191a;
+    border-radius: 50px;
+    width: 520px;
+    height: 458px;
+    align-items: center;
+    justify-items: center;
+}
+
+.paola2 {
+    width: 115px;
+}
+
+.titulo_dica {
+    color: #FAF8F0;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: italic bold;
+    width: 306px;
+    margin: 15px;
+}
+
+.frase_dica {
+    color: #FAF8F0;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    width: 430px;
+    height: 188px;
+    line-height: 1.5;
+}
+
+.frase_mesa {
+    width: 650px;
+    margin-bottom: 90px;
+}
+
+
+.paola2 {
+  display: block;
+  padding-top: 58px;
+  padding-bottom: 3%;
+}
+
+/*SVG*/
+:root {
+    --size: 30px;
+}
+
+.redes_sociais svg {
+    width: var(--size);
+    height: var(--size);
+    fill: #111;
+    transition: transform .15s ease;
+    margin: 5px 0px;
+}
+
+.redes_sociais svg:hover {
+    transform: scale(1.2);
+    fill:coral;
+}
+
+.redes_sociais {
+    width: 3%;
+    margin: 20px;
+}
+

@@ -1,0 +1,60 @@
+.card-container {
+  position: relative;
+  width: 90%;
+  max-width: 1400%;  
+  margin: 150px auto; 
+  min-height: 850px;
+}
+
+.card {
+  position: absolute;
+  overflow: hidden;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: transform 0.3s;
+  background-color: gray;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* PRECISA ARRUMAR AINDA!!!!!!!! */
+.curtir {
+    position: absolute;
+    bottom: 0.5em;
+    right: 0.5em;
+    background: #fff;
+    border: white solid 10px;
+    border-radius: 50%;
+    font-size: 2.0rem;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    color: brown;
+    padding: 0px 6px;
+}
+
+.curtir:hover {
+  background: #A2FF8D;
+  border-color: #A2FF8D;;
+  transform: scale(1.2);
+  color: #000;
+}
+
+.card1 { width: 28%; height: 800px; top: 50px; left: 2%; } 
+.card2 { width: 31%; height: 320px; top: 50px; left: 32%; } 
+.card3 { width: 15%; height: 445px; top: 405px; left: 32%; } 
+.card4 { width: 22%; height: 445px; top: 405px; left: 49%; } 
+.card5 { width: 22%; height: 445px; top: 405px; left: 73%; } 
+.card6 { width: 30%; height: 320px; top: 50px; left: 65%; }
+
+
+.card1:hover, .card2:hover, .card3:hover, .card4:hover, .card5:hover, .card6:hover {
+  transform: scale(1.05);                
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+  filter: brightness(1.1);           
+}
+
