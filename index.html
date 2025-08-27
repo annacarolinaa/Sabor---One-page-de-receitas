@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sabor</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./css/conquistas.css">
+  <link rel="stylesheet" href="./css/forms.css">
+  <link rel="stylesheet" href="./css/funcionamento.css">
+  <link rel="stylesheet" href="./css/gral.css">
+  <link rel="stylesheet" href="./css/mosaico.css">
+  <link rel="stylesheet" href="./css/queridinhos.css">
+  <link rel="stylesheet" href="./css/topo.css">
+  <link href="curtidos.html">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Leckerli+One&family=WDXL+Lubrifont+TC&display=swap');
+  </style>
+  <script src="https://kit.fontawesome.com/bd542eb4b2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header id="topo">
+
+    <nav class="topohome">
+      <img src="img/logo.svg" class="logo">
+      <ul class="menu">
+        <li><a href="#estatisticas">Conquistas</a></li>
+        <li><a href="curtidos.html">Curtidos</a></li>
+        <li><a href="#queridinhos">Queridinhos</a></li>
+        <li><a href="#formulario">Fale conosco</a></li>
+
+      </ul>
+      <div class="email">
+        <a href="mailto:annastudiomultimidia@gmail.com"><img src="img/envelope.svg" alt="email"></a>
+      </div>
+    </nav>
+    <div class="banner">
+      <img src="img/topo.svg" alt="">
+    </div>
+
+  </header>
+
+
+  <main class="card-container">
+    <div class="card card1">
+      <img src="./img/f1.avif" alt="Imagem 1">
+      <button class="curtir">❤</button>
+    </div>
+    <div class="card card2">
+      <img src="./img/p1.avif" alt="Imagem 2">
+      <button class="curtir">❤</button>
+    </div>
+    <div class="card card3">
+      <img src="./img/fogaça.webp" alt="Imagem 3">
+      <button class="curtir">❤</button>
+    </div>
+    <div class="card card4">
+      <img src="./img/vieiras.jpg" alt="Imagem 4">
+      <button class="curtir">❤</button>
+    </div>
+    <div class="card card5">
+      <img src="./img/heaven.jpg" alt="Imagem 5">
+      <button class="curtir">❤</button>
+    </div>
+    <div class="card card6">
+      <img src="./img/r2.avif" alt="Imagem 5">
+      <button class="curtir">❤</button>
+    </div>
+
+  </main>
+
+  <!--Cardzinho de ensinamento (teste)-->
+  <section class="funcionamento" id="funcionamento">
+    <div class="funcionamento-topo">
+      <h2 class="titulo_gradiente">Como vai Funcionar? Descubra Já!</h2>
+      <p class="descricao">3 passos para virar crítico gastronômico / simples como um bom prato. Encontre pratos, avalie
+        com notas ou likes, descubra os mais votados.</p>
+    </div>
+
+    <img class="img_teste" src="./img/teste-home2.png">
+
+    <div class="grid_funcoes">
+      <div>
+        <h3 class="funcoes_tt">COMO AVALIAR?</h3>
+        <p class="funcoes_tt_frase">Descubra algumas das funções do nosso site!</p>
+      </div>
+      <div class="funcoes">
+        <div class="prato">
+          <img src="img/carbonara.svg" class="carbonara">
+          <div class="info">
+            <h3>Carbonara</h3>
+            <p>Pecorino</p>
+            <div class="avaliacao">
+              <span data-star="1">★</span>
+              <span data-star="2">★</span>
+              <span data-star="3">★</span>
+              <span data-star="4">★</span>
+              <span data-star="5">★</span>
+            </div>
+          </div>
+          <div class="like">❤</div>
+        </div>
+
+
+        <div class="comentario-box">
+          <div class="grid_comentario">
+            <textarea placeholder="Deixe sua opinião..." class="comment_opiniao"></textarea>
+            <button class="enviar">Enviar</button>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Caixa de passo a passo -->
+      <div class="guia-avaliacao" aria-live="polite" hidden>
+        <div class="guia-header">
+          <span class="guia-badge">Passo 1</span><br>
+          <strong>Como avaliar</strong>
+        </div>
+
+        <ol class="guia-lista">
+          <li class="guia-step" data-action="like">Dê um like clicando no coração ❤️</li>
+          <li class="guia-step" data-action="rate">Avalie selecionando as estrelas ⭐</li>
+          <li class="guia-step" data-action="comment">Escreva um comentário</li>
+          <li class="guia-step" data-action="send">Clique em “Enviar”</li>
+        </ol>
+
+        <div class="guia-progresso">
+          <div class="guia-progresso-barra"></div>
+        </div>
+      </div>
+
+      <!--<img class="img_fun" src="./img/people.png" alt="">-->
+    </div>
+
+  </section>
+
+
+
+
+
+  <!--Queridinhos (FINALIZADO)-->
+  <section class="queridinhos" id="queridinhos">
+    <div class="tt_queridinhos">
+      <h2>NOSSOS QUERIDINH❤S</h2>
+      <p class="texto_queridinhos">Diversos <span class="bold">chefs renomados</span> já utilizaram nossa plataforma
+        para
+        <span class="bold">compartilhar suas opiniões</span> e conhecer novos pratos. Confira o que alguns deles
+        disseram sobre a experiência:
+      </p>
+    </div>
+
+    <div class="carousel-controls">
+      <button class="next">></button>
+    </div>
+
+    <div class="carousel-wrapper">
+      <div class="carousel">
+        <div class="chef">
+          <div class="chef-text">
+            <h3>Alex Atala</h3>
+            <p>"Simples, prático e inspirador, para qualquer amante da gastronomia."</p>
+          </div>
+        </div>
+        <div class="chef">
+          <div class="chef-text">
+            <h3>Erick Jacquin</h3>
+            <p>"Traz a culinária para mais perto das pessoas de forma leve e interessante."</p>
+          </div>
+        </div>
+        <div class="chef">
+          <div class="chef-text">
+            <h3>Helena Rizzo</h3>
+            <p>"Uma experiência deliciosa, prática e divertida."</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+
+  <!-- ESTATÍSTICAS -->
+  <section id="estatisticas" class="estatisticas">
+    <div class="dados">
+      <div>
+        <div><i class="fa-solid fa-quote-left"></i></div>
+        <blockquote>
+          “Idealizado por um <span class="bold">entusiasta</span> da <span class="bold">experiência</span> e da <span
+            class="bold">boa comida</span>.”
+        </blockquote>
+        <div> <img class="ass" src="img/assinatura.svg" /> </div>
+      </div>
+
+      <div class="nu">
+        <div class="numeros-container1">
+          <div class="cardn1">
+            <h4>+2M</h4>
+            <p>pratos</p>
+          </div>
+
+          <div class="cardn3">
+            <h4>+10k</h4>
+            <p>usuários</p>
+          </div>
+        </div>
+
+        <div class="numeros-container2">
+          <div class="cardn2">
+            <h4>+50M</h4>
+            <p>avaliações</p>
+          </div>
+
+          <div class="cardn4">
+            <h4>+7k</h4>
+            <p>lugares</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div class="apoio">
+      <p class="apoiadores">Alguns dos nossos apoiadores:</p>
+      <div class="logos">
+        <img src="img/outback.svg" alt="Outback">
+        <img src="img/food.svg" alt="iFood">
+        <img src="img/nesle.svg" alt="Nestlé">
+        <img src="img/vigor.svg" alt="Vigor">
+        <img src="img/arno.svg" alt="Arno">
+      </div>
+    </div>
+
+  </section>
+
+  <!-- FORMULÁRIO -->
+  <section class="formulario" id="formulario">
+    <div class="grid">
+      <div class="dica_titulo">
+        <h2 class="frase_mesa">Reserve seu lugar à <span class="mesa">mesa</span></h2>
+        <div class="dica">
+          <img class="paola2" src="img/paola2.svg">
+          <h3 class="titulo_dica">Dica da Chef!</h3>
+          <p class="frase_dica">Ao se pré-cadastrar, você terá <span class="bold">acesso antecipado</span> à plataforma,
+            poderá testar <span class="bold">recursos exclusivos</span>
+            antes de todos e ainda ajudar a <span class="bold">moldar a comunidade</span> de amantes da boa comida <span
+              class="bold">desde o início</span></p>
+        </div>
+      </div>
+
+      <div class="forms">
+        <form action="mailto:adeannacarolina@gmail.com" method="post" enctype="text/plain">
+          <input type="text" name="nome" placeholder="nome" required>
+          <input type="email" name="email" placeholder="email" required>
+          <input type="tel" name="telefone" placeholder="telefone">
+          <textarea name="mensagem" placeholder="mensagem" required></textarea>
+          <button type="submit" class="button_submit">enviar</button>
+        </form>
+      </div>
+
+      <div class="redes_sociais">
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="40" height="40">
+            <path
+              d="M12 2.163c3.204 0 3.584.012 4.85.07 1.366.062 2.633.35 3.608 1.325.975.975 1.263 2.242 1.325 3.608.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.062 1.366-.35 2.633-1.325 3.608-.975.975-2.242 1.263-3.608 1.325-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.366-.062-2.633-.35-3.608-1.325-.975-.975-1.263-2.242-1.325-3.608C2.175 15.747 2.163 15.367 2.163 12s.012-3.584.07-4.85c.062-1.366.35-2.633 1.325-3.608.975-.975 2.242-1.263 3.608-1.325C8.416 2.175 8.796 2.163 12 2.163zm0 1.687c-3.17 0-3.552.012-4.805.07-1.04.048-1.602.218-1.975.363-.497.193-.85.423-1.222.795-.372.372-.602.725-.795 1.222-.145.373-.315.935-.363 1.975-.058 1.253-.07 1.635-.07 4.805s.012 3.552.07 4.805c.048 1.04.218 1.602.363 1.975.193.497.423.85.795 1.222.372.372.725.602 1.222.795.373.145.935.315 1.975.363 1.253.058 1.635.07 4.805.07s3.552-.012 4.805-.07c1.04-.048 1.602-.218 1.975-.363.497-.193.85-.423 1.222-.795.372-.372.602-.725.795-1.222.145-.373.315-.935.363-1.975.058-1.253.07-1.635.07-4.805s-.012-3.552-.07-4.805c-.048-1.04-.218-1.602-.363-1.975-.193-.497-.423-.85-.795-1.222-.372-.372-.725-.602-1.222-.795-.373-.145-.935-.315-1.975-.363-1.253-.058-1.635-.07-4.805-.07zm0 3.919a5.919 5.919 0 110 11.838 5.919 5.919 0 010-11.838zm0 1.687a4.232 4.232 0 100 8.464 4.232 4.232 0 000-8.464zm6.406-2.845a1.387 1.387 0 11-2.774 0 1.387 1.387 0 012.774 0z" />
+          </svg>
+        </a>
+
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="40" height="40">
+            <path
+              d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.354V9h3.414v1.561h.049c.476-.9 1.637-1.85 3.37-1.85 3.605 0 4.271 2.372 4.271 5.455v6.286zM5.337 7.433a2.062 2.062 0 11-.001-4.123 2.062 2.062 0 01.001 4.123zM6.918 20.452H3.659V9h3.259v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.225.792 24 1.771 24h20.451C23.2 24 24 23.225 24 22.271V1.729C24 .774 23.2 0 22.225 0z" />
+          </svg>
+        </a>
+
+        <a href="https://www.twitter.com/" target="_blank" rel="noopener noreferrer">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="40" height="40">
+            <path
+              d="M23.954 4.569c-.885.392-1.83.656-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.564-2.005.974-3.127 1.195-.897-.959-2.178-1.559-3.594-1.559-2.719 0-4.924 2.205-4.924 4.923 0 .39.045.765.127 1.124-4.094-.205-7.725-2.167-10.162-5.144-.424.729-.666 1.577-.666 2.475 0 1.708.87 3.216 2.188 4.099-.807-.026-1.566-.247-2.229-.616v.062c0 2.385 1.693 4.374 3.946 4.828-.413.111-.849.171-1.296.171-.317 0-.626-.03-.928-.086.627 1.956 2.444 3.379 4.6 3.419-1.68 1.318-3.809 2.106-6.102 2.106-.396 0-.788-.023-1.175-.068 2.179 1.397 4.768 2.212 7.557 2.212 9.054 0 14-7.496 14-13.986 0-.21 0-.423-.015-.633.962-.689 1.8-1.56 2.46-2.548l-.047-.02z" />
+          </svg>
+        </a>
+
+        <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="40" height="40">
+            <path
+              d="M23.498 6.186a2.963 2.963 0 0 0-2.087-2.096C19.505 3.5 12 3.5 12 3.5s-7.505 0-9.411.59A2.963 2.963 0 0 0 .502 6.186C0 8.093 0 12 0 12s0 3.907.502 5.814a2.963 2.963 0 0 0 2.087 2.096c1.906.59 9.411.59 9.411.59s7.505 0 9.411-.59a2.963 2.963 0 0 0 2.087-2.096C24 15.907 24 12 24 12s0-3.907-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+          </svg>
+        </a>
+
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="40" height="40">
+            <path
+              d="M22.675 0h-21.35C.597 0 0 .597 0 1.326v21.348C0 23.403.597 24 1.326 24H12.82v-9.294H9.692V11.08h3.128V8.414c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.464.099 2.795.143v3.24l-1.918.001c-1.504 0-1.796.715-1.796 1.763v2.309h3.587l-.467 3.626h-3.12V24h6.116C23.403 24 24 23.403 24 22.674V1.326C24 .597 23.403 0 22.675 0z" />
+          </svg>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- RODAPÉ -->
+  <footer>
+    <p>&copy; 2025 SABOR - Todos os direitos reservados</p>
+  </footer>
+</body>
+<script src="script.js"></script>
+
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Curtidos</title>
+  <link rel="stylesheet" href="./css/curtidos.css">
+</head>
+<body>
+  <header id="topo">
+    <nav class="topohome">
+      <img src="img/logo.svg" class="logo">
+      <ul class="menu">
+        <li><a href="index.html#estatisticas">Conquistas</a></li>
+        <li><a href="index.html">Curtidos</a></li>
+        <li><a href="index.html#queridinhos">Queridinhos</a></li>
+        <li><a href="index.html#formulario">Fale conosco</a></li>
+
+      </ul>
+      <div class="email">
+        <a href="mailto:annastudiomultimidia@gmail.com"><img src="img/envelope.svg" alt="email"></a>
+      </div>
+    </nav>
+    <div class="banner">
+      <img src="img/topo_favoritos.svg" alt="">
+    </div>
+  </header>
+
+  <main id="lista-curtidos" class="card-container"></main>
+
+  <script>
+    const lista = document.getElementById("lista-curtidos");
+    const curtidos = JSON.parse(localStorage.getItem("curtidos")) || [];
+    if (curtidos.length === 0) {
+      lista.innerHTML = "<p>Você ainda não curtiu nada 😢</p>";
+    } else {
+      curtidos.forEach(item => {
+        const div = document.createElement("div");
+        div.classList.add("card");
+        div.innerHTML = item;
+        lista.appendChild(div);
+      });
+    }
+  </script>
+</body>
+</html>

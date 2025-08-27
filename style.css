@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  background-color: #111;
+  line-height: 1.5;
+  background-image: url("img/noise.png");
+  background-repeat: repeat
+}
+
+
+footer {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+}
+
+
